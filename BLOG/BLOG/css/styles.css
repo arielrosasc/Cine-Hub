@@ -1,0 +1,2102 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+.container .navbar-brand img{
+    height: 50px;
+}
+
+body{
+    background: #161815;
+    
+}
+
+html h2,h3,h4,h5{
+    font-weight: bold;
+}
+
+.team p{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.about a{
+    font-weight: bold;
+}
+
+.secction-padding{
+    padding: 70px 0;
+
+}
+
+.carousel-item{
+    height: 50vw;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 80px;
+    z-index: 2;
+    
+}
+.carousel-caption2{
+    bottom: 80px;
+    z-index: 2; 
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: -200px;
+}
+
+.carousel-caption2 h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 250px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* background: rgba(0, 30, 82, 0.327); */
+    z-index: 1;
+}
+
+.carousel-indicators{
+    height: 60px;
+}
+
+.navbar-nav a{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.navbar-dark .navbar-brand{
+    color: efff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
+    
+    color: black
+
+}
+
+.w-100{
+    height: 100vh;
+}
+
+.navbar-toggler{
+    padding: 1px 5px;
+    font-size: 10px;
+    line-height: 0.3;
+}
+
+.services .card-body i{
+    font-size: 50px;
+}
+
+.services .container{
+    padding-top: 40px;
+}
+.services .section-header h2{
+    height: 40px;
+}
+.services .section-header p{
+    height: 0px;
+}
+
+.team .container .col-md-12{
+    font-size: 500px
+}
+
+.team .card-body i{
+    font-size: 20px;
+}
+
+
+.team .container{
+    padding-top: 0px;
+    padding-bottom: 80px;
+}
+
+
+
+.about-img{
+    position: relative;
+    left: 70px;
+    margin-top: -10%;
+    height: -30px;
+}
+
+.about-text h2{
+    position: relative;
+    top: -50px;
+    height: -20px;
+    padding-right: 400px;
+}
+.about-text p{
+    position: relative;
+    top: -40px;
+    height: -500px;
+}
+
+.contact h2{
+    height: 10px;
+    padding-bottom: 50px;
+}
+.contact p{
+    height: 0px;
+}
+
+.contact .container{
+    padding-top: 0px;
+}
+
+.portfolio .container{
+    padding-bottom: 50px;
+}
+
+.peliculas h2{
+    font-size: 50px;
+}
+.peliculas h2{
+    padding-top: 0px;
+    font-size: 50px;
+    height: 70px;
+}
+
+.peliculas p{
+    height: 50px;
+    padding-bottom: 50px;
+}
+
+.peliculas .btn-primary{
+    margin-right: 10px;
+    
+}
+ 
+.reciente h2{
+    padding-top: 50px;
+    font-size: 50px;
+    height: 70px;
+}
+.reciente p{
+    padding-top: 50px;
+    height: 70px;
+}
+
+.acerca .container{
+    padding-bottom: 500px;
+    padding: 20px;
+}
+
+.notis{
+    position: relative;
+    top: 50px;
+}
+ .notisp{
+    position: relative;
+    top: 50px;    
+}
+
+.noticias h2{
+    font-size: 50px;
+}
+
+.noticias p{
+    font-size: 20px;
+}
+.galardonadas h2{
+    font-size: 50px;
+}
+
+.galardonadas p{
+    font-size: 20px;
+}
+.textserie{
+    position: relative;
+    top: -170px;
+}
+
+.textreseña{
+    position: relative;
+    top: -100px;
+}
+
+.textpelicula{
+    position: relative;
+    top: -80px;
+}
+
+.textcontacto{
+    position: relative;
+    top: 50px;
+}
+
+
+
+
+/* .acerca p{
+    margin-top: 200px;
+} */
+
+/* .about h2{
+    height: 100px;
+    margin-top: 200px;
+}
+
+ESTRELLAS
+-------------------------------------------------------------
+*/
+
+.containerstar{
+    margin: 0px;
+    padding: 0px 100px;
+    size: 500px;
+    box-sizing:content-box;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    padding-bottom: -100px;
+    padding-block-end: -100px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.reseñas-peliculas .info-estrellas h5{
+    position: absolute;
+    top: 61em;
+    left: 8em;
+    color: white;
+    font-size: 1em;
+    width: 80px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.reseñas-peliculas .info-estrellas{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+.reseñas-peliculas .promedio-estrellas{
+    margin-bottom: 20px;
+}
+
+.reseñas-peliculas .promedio-estrellas h6{
+    font-size: 20px;
+}
+
+
+.reseñas-series .info-estrellas h5{
+    position: absolute;
+    top: 61em;
+    left: 8em;
+    color: white;
+    font-size: 1em;
+    width: 80px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.reseñas-series .info-estrellas{
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
+
+
+.reseñas-series .promedio-estrellas{
+    margin-bottom: 20px;
+}
+
+.reseñas-series .promedio-estrellas h6{
+    font-size: 20px;
+}
+
+
+
+.blur-out {
+    animation:blur-out 5.4s linear both
+} 
+
+@keyframes blur-out{
+    0%{
+        filter:blur(.01px);
+    }
+    100%{
+        filter:blur(12px);opacity:0
+    }
+}
+
+.reseñas-peliculas .info-estrellas button{
+    position: absolute;
+    top: 58em;
+    left: 8em;
+    padding: 10;
+    margin-bottom: 5px;
+}
+
+
+.reseñas-series .info-estrellas button{
+    position: absolute;
+    top: 58em;
+    left: 8em;
+    padding: 10;
+    margin-bottom: 5px;
+}
+
+
+.rating{
+    position:relative;
+    /* top: 1750px;
+    left: 190px; */
+    display:flex;
+    width: 280px;
+    flex-direction: row-reverse;
+    left: 35px;
+    padding: 1px 10px;
+    margin-bottom: 10px;
+    border: 3px solid #106cfc;
+    gap: 4px;
+    border-radius: 30px;
+    background: #106cfc;
+    box-shadow: /*30px 30px 30px -10px rgba(0,0,0,.5), */inset 15px 15px 3px #106cfc, /*/-4px -4px 15px black,*/ inset -2px -2px 12px #106cfc;
+    margin-bottom: 80px;
+}
+
+
+.rating input {
+    position: relative;
+    width: 100px;
+    height: 30px;
+    right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none; 
+}
+
+.rating input::before{
+    content: '\f005';
+    display: flex;
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 25px;
+    color: white;
+    transition: .5s;
+}
+
+.rating input:hover ~ input::before,
+.rating input:hover::before,
+.rating input:checked ~ input::before,
+.rating input:checked::before{
+    color: var(--c);
+}
+
+.califica{
+    padding-top: 0px;
+    position: absolute;
+    top: 1680px;
+    right: 940px;
+}
+
+/* .acerca .container p{
+    height: 500px;
+} */
+
+.about a{
+    position: relative;
+    top: -50px;
+    margin-left: 270px;
+    font-size: 2em;
+    text-align: center;
+}
+
+.about p{
+    text-align: center;
+    font-size: 18px;
+}
+
+.services p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.services .noti{
+    margin-bottom: -25px;
+}
+
+.services .noti a{
+    margin-top: -20px;
+    margin-bottom: 18px;
+}
+
+.services .peli{
+    margin-bottom: -5px;
+}
+
+.team h2{
+    margin-top: 80px;
+    margin-bottom: -20px;
+}
+
+.contact h2{
+    font-size: 35px;
+}
+
+.contact p{
+    font-size: 20px;
+    margin-bottom: -20px;
+}
+
+/* PELICULAS */
+.peliculas p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.peliculas a{
+    margin-left: 2px;
+}
+
+.texto-peliculas-recientes-dk p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.texto-peliculas-clasicas-dk p{
+    font-size: 18px;
+    text-align: center;
+}
+
+.peliculas-recientes-dk{
+    position: relative;
+    height: 630px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.peliculas-clasicas-dk{
+    position: relative;
+    height: 630px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.peliculas-proximamente-dk{
+    position: relative;
+    height: 630px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.peliculas-recientes-dk .img-recientes,
+.peliculas-clasicas-dk .img-clasicas,
+.peliculas-proximamente-dk .img-proximamente{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.peliculas-recientes-dk h3,
+.peliculas-clasicas-dk h3,
+.peliculas-proximamente-dk h3{
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.peliculas-recientes-dk p,
+.peliculas-clasicas-dk p,
+.peliculas-proximamente-dk p{
+    position: absolute;
+    top: 280px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.peliculas-proximamente-dk a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.peliculas-recientes-dk .miBoton-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 10px;
+}
+
+
+.peliculas-clasicas-dk .miBoton-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 10px;
+}
+
+
+.serie-reciente-dk .miBoton-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 10px;
+}
+
+
+.series-clasicas-dk .miBoton-2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 10px;
+}
+
+
+
+
+/* SERIES */
+
+.texto-serie-recientes-dk h2{
+    font-size: 35px;
+}
+
+.texto-serie-recientes-dk p{
+    font-size: 18px;
+}
+
+.texto-series-clasicas-dk h2{
+    font-size: 35px;
+}
+
+.texto-series-clasicas-dk p{
+    font-size: 18px;
+}
+
+.texto-serie-proximamente-dk h2{
+    font-size: 35px;
+}
+
+.texto-serie-proximamente-dk p{
+    font-size: 18px;
+}
+
+
+.serie-reciente-dk{
+    position: relative;
+    height: 630px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.series-clasicas-dk{
+    position: relative;
+    height: 630px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.proximas-dk{
+    position: relative;
+    height: 630px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.serie-reciente-dk .img-serie-reciente,
+.series-clasicas-dk .img-serie-clasica,
+.proximas-dk .img-serie-proximamente{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.serie-reciente-dk h3,
+.series-clasicas-dk h3,
+.proximas-dk h3{
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+}
+
+.serie-reciente-dk p,
+.series-clasicas-dk p,
+.proximas-dk p{
+    position: absolute;
+    top: 280px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.proximas-dk a{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* RESEÑAS */
+
+.texto-reseñas-peliculas-dk h2{
+    font-size: 35px;
+}
+
+.texto-reseñas-peliculas-dk p{
+    font-size: 18px;
+}
+
+
+.texto-reseñas-series-dk h2{
+    font-size: 35px;
+}
+
+.texto-reseñas-series-dk p{
+    font-size: 18px;
+}
+
+
+.reseñas-peliculas-dk{
+    position: relative;
+    height: 1050px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.reseñas-series-dk{
+    position: relative;
+    height: 1050px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.reseñas-peliculas-dk .img-reseñas-peliculas,
+.reseñas-series-dk .img-reseñas-series{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.reseñas-peliculas-dk h3,
+.reseñas-series-dk h3{
+    position: absolute;
+    top: 20%;
+    transform: translateY(-50%);
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.reseñas-peliculas-dk p,
+.reseñas-series-dk p{
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+/* NOTICIAS */
+
+.publis-noticias-dk{
+    position: relative;
+    height: 800px;
+    margin-bottom: 20px;
+}
+
+.publis-noticias-dk a{
+    position: absolute;
+    bottom: 10px;
+    left: 37%;
+}
+
+.carusel-noticias h5{
+    position: relative;
+    top: -30px;
+    color: white;
+}
+
+
+/* GALARDONADAS */
+
+.carusel-galardonadas h5{
+    position: relative;
+    top: 100px;
+}
+
+.pelis-galardonadas{
+    margin-bottom: 20px;
+    position: relative;
+    /* height: 550px; */
+}
+
+.boton-fecha{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+}
+
+.pelis-galardonadas-dk{
+    position: relative;
+    height: 650px;
+}
+
+.pelis-galardonadas-dk a{
+    position: absolute;
+    bottom: 10px;
+    left: 28%;
+}
+
+
+.carousel-inner img{
+    opacity: 0.6;
+}
+
+@media(max-width: 1100px){
+    /* Carusel */
+    .carousel-inner img{
+        height: 320px;
+        opacity: 0.7;
+    }
+    .carousel-inner{
+        position: relative;
+        height: 300px;
+    }
+
+    .carousel-inner .carousel-caption{
+        position: absolute;
+        top: 15em;
+    }
+
+    .carousel-inner .carousel-caption h5{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .navbar .navbar-brand{
+        margin-left: 25px;
+    }
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-item{
+        height: 100vh;
+    }
+    w-100{
+        height: 170vh;
+    }
+    .carousel-caption{
+        bottom: 20px;
+    }
+    .carousel-caption h5{
+        font-size: 25px;
+    }
+    .carousel-caption2{
+        bottom: 20px;
+    }
+    .carousel-caption2 h5{
+        font-size: 25px;
+    }
+    .carousel-caption a{
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+    .carousel-caption p{
+        width: 100%;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .about-text{
+        padding-top: 0px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
+    .secction-padding{
+        padding: 50px 0;
+    }
+    .img {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: bottom;
+      }
+    .about h2{
+        position: relative;
+        left: 150px;
+        text-align: center;
+        font-size: 35px;
+    }
+    .about p{
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .services h2{
+        font-size: 35px;
+    }
+
+    .services p{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .container .pelis{
+        margin-top: 100px;
+    }
+
+    .carousel-indicators{
+        position: relative;
+        top: -23px;
+    }
+
+    .about-img{
+        position: relative;
+        top: -60px;
+        left: 35px;
+    }
+
+    .about a{
+        position: relative;
+        top: -50px;
+        left: 100px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 35px;
+    }
+
+    .acerca .clasicas{
+        margin-top: -20px;
+    }
+
+    .acerca .proximas{
+        margin-top: 20px;
+    }
+
+    .proximas a{
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .team h2{
+        margin-top: 30px;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+
+    .team .equipo{
+        margin-top: -30px;
+    }
+
+    .contact h2{
+        margin-top: -70px;
+        font-size: 35px;
+    }
+
+    .contact p{
+        font-size: 25px;
+        margin-bottom: 150px;
+    }
+    /* SERIES */
+    .series p{
+        margin-bottom: 100px;
+        font-size: 18px;
+    }
+    .series h2{
+        margin-top: 20px;
+        margin-bottom: -20px;
+        font-size: 35px;
+    }
+
+    .series a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .acerca .texto-serie-recientes h2{
+        font-size: 35px;
+    }
+
+    .acerca .texto-serie-recientes p{
+        font-size: 18px;
+    }
+/* 
+    .serie-reciente button{
+        display: flex;
+        justify-content: center;
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 0 -120px 10px 50px;
+        padding: 1;
+    }
+
+    .desplegable a{
+        position: relative;
+        left: 0px;
+    } */
+
+    .texto-series-clasicas h2{
+        margin-top: -30px;
+        font-size: 35px;
+    }
+
+    .texto-series-clasicas p{
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .series-clasicas{
+        margin-bottom: 25px;
+    }
+
+    .texto-proximamente-series h2{
+        font-size: 35px;
+    }
+
+    .texto-proximamente-series p{
+        font-size: 18px;
+        margin-bottom: -20px;
+    }
+
+    /* PELICULAS */
+/* 
+    .acerca .peliculas-clasicas a{
+        margin-left: 60px;
+    }
+
+    
+    .acerca .peliculas-recientes a{
+        margin-left: 60px;
+    } */
+
+
+    .texto-peliculas h2{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .texto-peliculas p{
+        margin-top: -20px;
+        margin-bottom: 100px;
+        font-size: 18px;
+    }
+
+    .texto-peliculas a {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texto-peliculas-recientes h2{
+        font-size: 35px;
+    }
+
+    .texto-peliculas-recientes p{
+        font-size: 18px;
+    }
+
+    .texto-peliculas-clasicas h2{
+        font-size: 35px;
+    }
+
+    .texto-peliculas-clasicas p{
+        font-size: 18px;
+    }
+
+    .texto-peliculas-proximamente h2{
+        font-size: 35px;
+    }
+
+    .texto-peliculas-proximamente p{
+        font-size: 18px;
+    }
+
+    .peliculas-recientes{
+        margin-bottom: 20px;
+    }
+
+    .peliculas-clasicas{
+        margin-bottom: 20px;
+    }
+
+    .peliculas-proximamente{
+        margin-bottom: 20px;
+    }
+
+    .peliculas-proximamente a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* RESEÑAS */
+
+    .texto-reseñas h2{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .texto-reseñas p{
+        margin-top: -20px;
+        font-size: 18px;
+        margin-bottom: 100px;
+    }
+
+    .texto-reseñas a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .texto-reseñas-peliculas h2{
+        margin-top: -20px;
+        font-size: 35px;
+    }
+
+
+    .texto-reseñas-peliculas p{
+        font-size: 18px;
+    }
+
+    .texto-reseñas-series h2{
+        font-size: 35px;
+    }
+
+    .texto-reseñas-series p{
+        font-size: 18px;
+    }
+
+    .reseñas-peliculas{
+        margin-bottom: 20px;
+    }
+
+    .reseñas-series{
+        margin-bottom: 20px;
+    }
+
+    .noticias h2{
+        font-size: 35px;
+    }
+
+    .noticias p{
+        font-size: 18px;
+    }
+
+    .publis-noticias{
+        margin-bottom: 20px;
+    }
+
+    /* BOTONES VISITANTE */
+
+    .serie-reciente .miBoton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 10px;
+    }
+
+    .series-clasicas .miBoton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 10px;
+    }
+
+    .serie-proximamente .miBoton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 10px;
+    }
+
+    .peliculas-recientes .miBoton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 10px;
+    }
+    
+    .peliculas-clasicas .miBoton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 10px;
+    }
+
+    .peliculas-proximamente .miBoton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-right: 10px;
+    }
+
+
+    .galardonadas h2{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+
+    .galardonadas p{
+        margin-bottom: -20px;
+        font-size: 18px;
+    }
+
+    .pelis-galardonadas{
+        margin-bottom: 20px;
+        position: relative;
+        /* height: 550px; */
+    }
+
+    .boton-fecha{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        color: #fff;
+        font-size: 16px;
+        cursor: pointer;
+        color: black;
+    }
+
+    .pelis-galardonadas h3, p{
+        text-align: center;
+    }
+/* 
+    .navbar .letra-c{
+        margin-left: 100px;
+        margin-right: -77px;
+        margin-bottom: 5px;
+        position: relative;
+        left: 200px;
+    } */
+
+    span.text-primary.cine:before {
+        content: "ine";
+        font-size: 1rem;
+        display: none;
+    }
+
+    span.text-primary.cine:after {
+        content: "Cine";
+        font-size: 1.5rem;
+    }
+
+    .navbar .letra-c{
+        display: none;
+        margin-left: auto;
+    }
+
+    .texto-cine-cabecera{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    footer .container{
+        height: 300px;
+    }
+
+    footer .footer-cine-hub{
+        margin-bottom: 20px;
+        font-size: 2%;
+        margin-top: 0;
+    }
+
+    .siguenos-footer{
+        width: 150px;
+        margin-top: -105px;
+        margin-left: 128px;
+    }
+
+    .siguenos-footer p{
+        display: none;
+    }
+
+    .enlaces-footer{
+        width: 280px;
+        margin-top: -38px;
+        position: relative;
+        left: -10px;
+    }
+
+    .enlaces-footer .mover-enlace{
+        margin-right: 13px;
+    }
+
+    footer img{
+        margin-top: 0px;
+        height: 10px;
+        display: none;
+        position: relative;
+        top: 250px;
+    }
+
+    footer hr{
+        display: none;
+    }
+}
+
+/* BOTON */
+
+.top-btn {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    font-size: 3rem;
+    text-decoration: none;
+    z-index: 9999;
+  }
+  
+  .top-btn svg {
+    width: inherit;
+    height: inherit;
+    font-size: inherit;
+  }
+
+.navbar .letra-c{
+    position: relative;
+    left: 26px;
+    top: 0px;
+}
+
+span.text-primary.cine {
+    font-size: 0;
+}
+span.text-primary.cine:before {
+    content: "ine";
+    font-size: 1.6rem;
+    position: relative;
+    top: 0.8px;
+    left: 8px;
+}
+
+/* FOOTER */
+/* 
+html{
+    height: 3000px;
+} */
+
+footer .container{
+    position: relative;
+    height: 100px;
+    top: -40px;
+}
+
+footer .footer-cine-hub{
+    position: relative;
+    top: 110px;
+    left: -10px;
+    font-size: 25px;
+    font-style: italic;
+    color: gray;
+}
+
+.siguenos-footer{
+    position: relative;
+    top: 80px;
+    left: -5px;
+    float: left;
+    color: white;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 130px;
+}
+
+.siguenos-footer p{
+    position: relative;
+    left: -5px;
+}
+
+hr.vertical1 {
+    position: absolute;
+    border: none;
+    border-left: 1px solid gray; /* elige el color que desees */
+    height: 140px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 250px;
+  }
+  
+
+.iconos-footer{
+    position: absolute;
+    top: 30px;
+    size: 50px;
+    margin-right: 8px;
+}
+
+.iconos-footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.enlaces-footer{
+    position: relative;
+    margin-left: 80px;
+    margin-right: auto;
+    top: 85px;
+    left: -30px;
+}
+
+.enlaces-footer a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: gray;
+    /* font-size: 20px; */
+    font-style: italic;
+}
+
+.enlaces-footer a:hover{
+    text-decoration: underline;
+}
+
+.enlaces-footer a:nth-child(5){
+    text-decoration: none;
+    cursor: default;
+}
+
+
+hr.vertical2 {
+    position: absolute;
+    border: none;
+    border-left: 1px solid gray; /* elige el color que desees */
+    height: 140px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 920px;
+    top: -20px;
+}
+
+
+hr.hr-1 {
+    position: absolute;
+    border: none;
+    border-left: 2px solid gray; /* elige el color que desees */
+    height: 20px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 360px;
+    top: -15px;
+}
+
+
+hr.hr-2 {
+    position: absolute;
+    border: none;
+    border-left: 2px solid gray; /* elige el color que desees */
+    height: 20px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 510px;
+    top: -15px;
+}
+
+
+hr.hr-3 {
+    position: absolute;
+    border: none;
+    border-left: 2px solid gray; /* elige el color que desees */
+    height: 20px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 605px;
+    top: -15px;
+}
+
+footer img{
+    position: relative;
+    height: 100px;
+    float: right;
+    left: 20px;
+    top: 40px;
+}
+/* 
+html{
+    height: 3100px;
+} */
+
+.separacion{
+    position: relative;
+    top: -10px;
+    left: 190px;
+    width: 670px;
+    color: gray;
+}
+
+.eslogan{
+    position: relative;
+    top: 20px;
+    color: gray;
+    font-style: italic;
+}
+
+.team .equipo p{
+    font-size: 23px
+}
+
+.team .equipo h3{
+    font-size: 28px;
+}
+
+#cerrar{
+    position:absolute;
+    right: 3px;
+    top:1px;
+}
+#modal{
+    padding: 0;
+}
+/* 
+.float{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.float:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+} */
+
+/* TABLETS/IPAD */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    html h2,h3{
+        font-weight: bold;
+    }
+
+    .peliculas h2{
+        font-weight: bold;
+    }
+    .acerca .peliculas-recientes h3,p{
+        margin-top: 8em;
+    }
+
+    .acerca .peliculas-recientes h3{
+        margin-top: 6.7em;
+    }
+
+    .acerca a{
+        margin-left: 200px;
+        margin-right: 100px;
+    }
+
+    .acerca .texto-peliculas-recientes h2,
+    .acerca .texto-peliculas-clasicas h2,
+    .acerca .texto-peliculas-proximamente h2{
+        margin-bottom: -100px;
+        font-weight: bold;
+    }
+
+    .acerca .peliculas-clasicas h3,
+    .acerca .peliculas-proximamente h3{
+        margin-top: 170px;
+        font-weight: bold;
+    }
+
+    .acerca .peliculas-proximamente a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .acerca .texto-serie-recientes p{
+        margin-top: 38px;
+    }
+
+    .series p{
+        margin-top: 35px;
+    }
+
+    .serie-reciente h3{
+        position: relative;
+        top: -4.8em;
+    }
+
+    .serie-reciente button{
+        margin-left: 14em;
+        margin-right: 6.8em;
+    }
+    
+    .acerca .texto-series-clasicas p{
+        margin-top: 38px;
+    }
+
+    .acerca .series-clasicas h3{
+        position: relative;
+        top: -4.8em;
+    }
+
+    .acerca .series-clasicas button{
+        margin-left: 14em;
+        margin-right: 6.8em;
+    }
+
+        
+    .acerca .texto-seres-proximamente{
+        margin-top: 38px;
+    }
+
+    .acerca .proximas h3{
+        position: relative;
+        top: -4.8em;
+    }
+
+    .acerca .proximas a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .reseñas p{
+        margin-bottom: 50px;
+    }
+
+    .acerca .texto-reseñas-peliculas p,
+    .acerca .texto-reseñas-series p{
+        margin-top: 20px;
+    }
+
+    .acerca .texto-reseñas-peliculas h2{
+        margin-top: 20px;
+    }
+
+    .acerca .reseñas-peliculas h3,
+    .acerca .reseñas-series h3{
+        position: absolute;
+        margin-top: 0;
+        margin-bottom: 10px;
+        /* top: -100px; */
+        top: 420px;
+    }
+
+    .acerca .reseñas-peliculas p,
+    .acerca .reseñas-series p{
+        position: absolute;
+        top: 450px;
+    }
+
+    .acerca .rating{
+        margin-left: 150px;
+    }
+
+    .noticias h2{
+        margin-top: 50px;
+    }
+
+    .noticias p{
+        margin-top: 20px;
+    }
+
+    .acerca .publis-noticias p{
+        margin-top: 30px;
+    }
+
+    .acerca .publis-noticias a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .acerca  .publis-noticias img{
+        width: 100%;
+    }
+
+    .acerca .publis-noticias h3{
+        font-weight: bold;
+    }
+
+    .navbar .texto-cine-cabecera{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .galardonadas p{
+        margin-top: 30px;
+    }
+
+    .acerca .pelis-galardonadas p{
+        margin-top: 20px;
+    }
+
+    .acerca .pelis-galardonadas h3{
+        font-weight: bold;
+    }
+
+    .acerca .pelis-galardonadas a{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .acerca .pelis-galardonadas img{
+        width: 100%;
+    }
+
+    .about .about-img{
+        margin-top: -20px;
+        margin-left: 150px;
+    }
+
+    .carousel-inner img{
+        height: 450px;
+        opacity: 0.7;
+    }
+    .carousel-inner{
+        position: relative;
+        height: 450px;
+    }
+
+    .carousel-inner .carousel-caption{
+        position: absolute;
+        top: 25em;
+    }
+
+    .carousel-inner .carousel-caption h5{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .about .navbar-brand{
+        position: relative;
+        top: -100px;
+        margin-left: 130px;
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    .about p{
+        margin-top: -30px;
+    }
+
+    .services h2{
+        font-weight: bold;
+    }
+
+    .services p{
+        margin-top: 20px;
+        margin-bottom: -10px;
+    }
+
+    .services .pelis p{
+        margin-bottom: 20px;
+    }
+
+    .services .reseñas p{
+        margin-bottom: 40px;
+    }
+
+    .services .noti p{
+        margin-bottom: 50px;
+    }
+
+    .services h3{
+        font-weight: bold;
+    }
+
+    .team h2{
+        font-weight: bold;
+    }
+
+    .team h3{
+        font-weight: bold;
+    }
+
+    .team p{
+        margin-top: 0;
+        margin-bottom: 50px;
+        font-weight: 200;
+    }
+
+    .team .socials{
+        margin-bottom: -20px;
+    }
+
+    .contact p{
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+
+    .contact h2{
+        font-weight: bold;
+    }
+
+    footer .container{
+        position: relative;
+        top: -100px;
+    }
+
+    .container .footer-cine-hub{
+        position: relative;
+        top: 170px;
+    }
+
+    .container .enlaces-footer{
+        position: absolute;
+        top: 155px;
+        margin-left: 250px;
+    }
+
+    .container .siguenos-footer{
+        position: absolute;
+        top: 150px;
+        margin-left: 300px;
+    }
+
+    .reseñas-series .info-estrellas{
+        position: absolute;
+        top: 50px;
+        left: 10em;
+    }
+    
+    .reseñas-peliculas .info-estrellas{
+        position: absolute;
+        top: 50px;
+        left: 10em;
+    }
+/* 
+    .row .links{
+        position: absolute;
+        left: 9.5em;
+        z-index: 999;
+    }
+
+    .links a{
+        position: absolute;
+        left: -11.5em;
+    } */
+
+    .desplegable{
+        width: 100px;
+    }
+    
+    .peliculas-recientes a,
+    .peliculas-clasicas a{
+        width: 120px;
+        height: 37px;
+    }
+
+    .peliculas-recientes .links,
+    .peliculas-clasicas .links{
+        position: absolute;
+        left: 9.9em;
+        height: 50px;
+    }
+
+    .peliculas-recientes .links a,
+    .peliculas-clasicas .links a{
+        position: relative;
+        left: -12.5em;
+        width: 100px;
+    }
+
+    .serie-reciente .links,
+    .series-clasicas .links{
+        position: absolute;
+        left: 13.6em;
+        height: 50px;
+    }
+
+    .serie-reciente .links a,
+    .series-clasicas .links a{
+        position: relative;
+        left: -12.5em;
+        width: 100px;
+    }
+
+    .serie-reciente button,
+    .series-clasicas button{
+        width: 110px;
+        height: 37px;
+    }
+
+    .pelis-galardonadas a{
+        position: absolute;
+        left: 16.5em;
+    }
+
+    
+    .publis-noticias a{
+        position: absolute;
+        left: 18em;
+    }
+}
+
+
+/* EXTRA CELULARES */
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+/* 
+    .peliculas-recientes .btn{
+        margin-left: 55px;
+    } */
+    .peliculas-recientes .desplegable{
+        position: absolute;
+        left: 30px;
+    }
+/* 
+    .peliculas-recientes .links{
+        position: relative;
+        left: 20px;
+    } */
+
+    .peliculas-clasicas .desplegable{
+        position: absolute;
+        left: 30px;
+    }
+
+    
+    .serie-reciente .desplegable{
+        position: absolute;
+        left: -20px;
+    }
+
+    .series-clasicas .desplegable{
+        position: absolute;
+        left: -20px;
+    }
+
+    .reseñas-peliculas .info-estrellas,
+    .reseñas-series .info-estrellas{
+        position: absolute;
+        left: -20px;
+    }
+
+    .reseñas-peliculas .rating,
+    .reseñas-series .rating{
+        position: relative;
+        left: 20px;
+    }
+
+    .reseñas-peliculas .promedio-estrellas,
+    .reseñas-series .promedio-estrellas{
+        position: relative;
+        left: 0px;
+    }
+
+    .about a{
+        position: relative;
+        left: 80px;
+    }
+
+    .about img{
+        position: relative;
+        left: -20px;
+    }
+}
+
+@media screen and (min-width: 1180px) and (max-width: 1194px){
+
+    .carousel-indicators{
+        position: relative;
+        top: -1.5em;
+    }
+
+    .carousel-item{
+        position: relative;
+        top: 4em;
+    }
+
+    .carousel-item img{
+        height: 100%;
+        position: relative;
+        top: -3.5em;
+    }
+
+    .about img{
+        position: relative;
+        left: -5rem;
+        top: 3rem;
+    }
+
+    .about a{
+        position: relative;
+        left: -2em;
+    }
+
+    .services .pelis{
+        height: 35.8em;
+    }
+
+    .services .notis{
+        position: relative;
+        top: 0em;
+        height: 35.8em;
+    }
+
+    .services .notis a{
+        position: relative;
+        top: 3em;
+    }
+
+    .services .pelis a{
+        position: relative;
+        top: 1.3em;
+    }
+
+    .contact p{
+        margin-bottom: 1em;
+    }
+
+    footer .container{
+        position: relative;
+        top: -5em;
+    }
+
+    footer .footer-cine-hub{
+        position: relative;
+        top: 9rem;
+    }
+/* 
+    .peliculas-recientes{
+        height: 650px;
+    } */
+}
+
+.rating-index{
+    position: relative;
+    top: 1em;
+    left: 0em;
+    margin-top: 0rem;
+    margin-bottom: 1.8rem;
+}
+
+.services .notis{
+    position: relative;
+    top: 0em;
+}
+
+
+/* ANIMACIONES */           
+.transUp{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transUp:hover{
+    transform: translatey(-10px);
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10-px);
+}
+
+.transUp2{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transUp2:hover{
+    transform: translatey(-10px);
+        -webkit-transform: translatey(-10px);
+        -moz-transform: translatey(-10px);
+}
+   
+.transDown{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;    
+}
+.transDown:hover{
+    transform: translatey(20px);
+        -webkit-transform: translatey(20px);
+        -moz-transform: translatey(20px);
+}
+
+.float{
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+}
+.float:hover{
+    box-shadow: 0 8px 8px 0 #000000,0 8px 8px 0 #000000;
+    transform: translate(0px,5px);
+    -webkit-transform: translate(0px,5px);
+    -moz-transform:translate(0px,5px);
+}
+
+.transRight{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.transRight:hover{
+    transform: translatex(20px);
+        -webkit-transform: translatex(20px);
+        -moz-transform: translatex(20px);
+}
+           
+.grow{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.grow:hover{
+    transform: scale3d(1.5, 1.5, 0.3);
+        -webkit-transform: scale3d(1.5, 1.5, 0.3);
+        -moz-transform: scale3d(1.5, 1.5, 0.3);
+}
+              
+
+.grow2{
+    transition: .5s, color .10s;
+        -webkit-transition: .5s, color .10s;
+        -moz-transition: .5s, color .10s;
+}
+.grow2:hover{
+    transform: scale3d(1.2, 1.2, 0.3);
+        -webkit-transform: scale3d(1.2, 1.2, 0.3);
+        -moz-transform: scale3d(1.2, 1.2, 0.3);
+}        

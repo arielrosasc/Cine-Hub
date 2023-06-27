@@ -1,0 +1,318 @@
+:root {
+    --dark: #16191c;
+    --dark-x: #1e2126;
+    --light: #ffffff;
+    --grey: #4B4B4B;
+}
+
+html{
+    width: 97vw;
+    height: 200px;
+}
+
+/* .img-login{
+    height: 300px;
+} */
+/* 
+.tamaño-login{
+    height: 700px;
+}
+
+.recuadro-login{
+    position: relative;
+    top: -30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+} */
+/* 
+.bg-dark .img-login{
+    height: 200px;
+} */
+
+
+.big-text{
+    font-size: 70px;
+}
+.big-2{
+    font-size: 20px;
+}
+
+.spartan{
+    font-family: 'League Spartan', sans-serif;
+}
+
+body{
+    font-family: 'Tilt Warp', cursive;
+    font-weight: 300;
+    color: var(--light);
+    height: 200px;
+}
+
+.bg-dark{
+    background-color: var(--dark)!important;
+}
+
+.bg-grey{
+    background-color: var(--grey);
+}
+
+.bg-dark-x{
+    background-color: var(--dark-x);
+}
+
+.form-control, .btnx{ /*modificar esto*/
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.img-1 {
+    background-image: url('../assets/fondo_login1.webP');
+    background-size: cover;
+    background-position: center;
+}
+
+.img-2 {
+    background-image: url('../assets/fondo-cine-3.webP');
+    background-size: cover;
+    background-position: center;
+}
+
+.izquierda{
+    padding-right: 40px;
+    height: 20px;
+    
+}
+@media(max-width: 1500px){
+    .carousel-item{
+        height: 100vh;
+    }
+    .carousel-caption{
+        bottom: 20px;
+    }
+}
+
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;   
+    
+}
+
+.btn-neon:hover{
+    background: #3249f4;
+    box-shadow: 0 0 2px #3249f4, 0 0 10px #3249f4, 0 0 20px #3249f4;
+    transition-delay: 0.65s;
+}
+
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #3249f4);
+}
+
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 0.5s;
+
+}
+
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #3249f4);
+}
+
+.btn-neon:hover #span3{
+    right: 100%;
+    transition:  0.5s;
+    transition-delay: 0.5s;
+}
+
+#span2{
+    top: -100%;
+    right: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #3249f4);
+}
+
+.btn-neon:hover #span2{
+    top: 100%;
+    transition:  0.5s;
+    transition-delay: 0.25s;
+}
+
+#span4{
+    bottom: -100%;
+    left: 0%;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #3249f4);
+}
+
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition:  0.5s;
+    transition-delay: 0.57s;
+}
+
+text-justify {
+    text-align: justify;
+}
+
+
+.img-login{
+    height: 200px;
+}
+
+.tamaño-login{
+    height: 200px;
+}
+
+.max-login{
+    height: 50px;
+}
+
+.complete-login{
+    position: relative;
+    top: -4rem;
+}
+
+.complete-login .txt-login-cinehub{
+    position: relative;
+    top: 2rem;
+    left: -1rem;
+}
+
+html{
+    height: 600px;
+}
+
+.complete-login .recuadro-login{
+    padding-bottom: 0 !important;
+}
+
+.complete-login h1{
+    position: relative;
+    left: 0rem;
+    width: 100px;
+}
+
+.form-group .registro{
+    position: relative;
+    left: 2rem;
+}
+
+
+
+@media screen and (min-width: 350px) and (max-width: 430px){
+
+    .recuadro-login{
+        position: relative;
+        top: 10rem;
+    }
+
+    .complete-login .txt-login-cinehub{
+        /* position: relative;
+        top: 8rem;
+        /* left: 1rem; */
+        /* margin: 0;
+        margin-left: 3rem;
+        margin-right: 4rem; */
+        /*
+        display: block;
+        text-align: center; */
+        position: absolute;
+        top: 36%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    
+    .complete-login h1{
+        position: relative;
+        top: 2rem;
+        left: 3rem;
+    }
+
+        
+    .img-1 {
+        background-image: url('../assets/fondo_login1.webP');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+    }
+
+    .img-2 {
+        background-image: url('../assets/fondo-cine-3.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 300px;
+    }
+
+    .form-group .registro{
+        position: relative;
+        left: -7.5rem;
+        margin-left: 120px
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+        
+    .img-1 {
+        background-image: url('../assets/fondo_login1.webP');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        width: 100%;
+    }
+
+    .img-2 {
+        background-image: url('../assets/fondo-cine-3.jpeg');
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+    }
+
+    .complete-login .txt-login-cinehub{
+        position: relative;
+        top: 21rem;
+        left: 13rem;
+    }
+
+    .recuadro-login{
+        position: relative;
+        top: 18rem;
+    }
+
+    .complete-login h1{
+        position: relative;
+        left: 15rem;
+    }
+
+    html{
+        width: 100%;
+    }
+
+    
+    .form-group .registro{
+        position: relative;
+        left: 14rem;
+        margin-left: 120px
+    }
+}

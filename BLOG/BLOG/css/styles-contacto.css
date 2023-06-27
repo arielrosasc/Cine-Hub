@@ -1,0 +1,442 @@
+
+html  h1, h2,h3,h4,h5{
+    font-weight: bold;
+}
+
+/* FOOTER-CONTACTANOS */
+.contactanos h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    margin-top: 100px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.contactanos p{
+    text-align: center;
+    color: white;
+    margin: 20px 150px 0;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.ubicacion{
+    position: relative;
+    margin-left: 70px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.correo{
+    margin-left: 150px;
+    margin-right: 20px;
+}
+
+/* FOOTER */
+
+footer .container{
+    position: relative;
+    height: 100px;
+    top: -40px;
+}
+
+footer .footer-cine-hub{
+    position: relative;
+    top: 100px;
+
+}
+
+.siguenos-footer{
+    position: relative;
+    top: 10px;
+    left: -5px;
+    float: left;
+    color: white;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.siguenos-footer p{
+    position: relative;
+    left: -5px;
+}
+
+hr.vertical1 {
+    position: absolute;
+    border: none;
+    border-left: 1px solid gray; /* elige el color que desees */
+    height: 140px; /* ajusta la altura que desees */
+    top: -22px;
+    margin-left: 0;
+    margin-right: 0;
+    left: 250px;
+  }
+  
+
+.iconos-footer{
+    position: absolute;
+    top: 30px;
+    size: 50px;
+    margin-right: 8px;
+}
+
+.iconos-footer a{
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.enlaces-footer{
+    position: relative;
+    margin-left: 50px;
+    margin-right: auto;
+    top: 10px;
+    left: -50px;
+}
+
+.enlaces-footer a{
+    margin-right: 8px;
+    text-decoration: none;
+    color: gray;
+}
+
+.enlaces-footer a:hover{
+    text-decoration: underline;
+}
+
+.enlaces-footer a:nth-child(5){
+    text-decoration: none;
+    cursor: default;
+}
+
+
+hr.vertical2 {
+    position: absolute;
+    border: none;
+    border-left: 1px solid gray; /* elige el color que desees */
+    height: 140px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 920px;
+    top: -20px;
+}
+
+
+hr.hr-1 {
+    position: absolute;
+    border: none;
+    border-left: 1.5px solid gray; /* elige el color que desees */
+    height: 20px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 415px;
+    top: -15px;
+}
+
+
+hr.hr-2 {
+    position: absolute;
+    border: none;
+    border-left: 1.5px solid gray; /* elige el color que desees */
+    height: 20px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 568px;
+    top: -15px;
+}
+
+
+hr.hr-3 {
+    position: absolute;
+    border: none;
+    border-left: 1.5px solid gray; /* elige el color que desees */
+    height: 20px; /* ajusta la altura que desees */
+    margin-left: 0;
+    margin-right: 0;
+    left: 660px;
+    top: -15px;
+}
+
+footer img{
+    position: relative;
+    height: 100px;
+    float: right;
+    left: 20px;
+    top: -35px;
+}
+
+.services i{
+    margin-bottom: 20px;
+}
+
+.services .telefono p{
+    margin-bottom: 25px;
+}
+
+.contactanos .about-img{
+    position: relative;
+    top: 80px;
+    left: 520px;
+    width: 300px;
+    height: 350px;
+}
+
+.acerca-de-nosotros{
+    position: relative;
+    left: -60px;
+}
+
+.porque-cinehub{
+    position: relative;
+    left: -60px;
+}
+
+.politica{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin: 20px 150px 0;
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+.politica .politica-txt{
+    position: relative;
+    left: -220px;
+    text-align: center;
+}
+
+.Destacar{
+    font-size: 35px;
+    font-style: italic;
+}
+html{
+    height: 1500px;
+}
+
+
+.separacion{
+    position: relative;
+    top: 0px;
+    left: 240px;
+    width: 670px;
+    color: gray;
+}
+
+
+@media(max-width: 1100px){
+    .siguenos-footer{
+        width: 150px;
+        margin-top: -63px;
+        margin-left: 128px;
+        position: absolute;
+        top: 2em;
+        left: 0.3em;
+    }
+    
+    .enlaces-footer{
+        width: 280px;
+        margin-top: 20px;
+        position: relative;
+        left: -9.5px;
+        top: 3.8em;
+    }
+    
+    .container .footer-cine-hub{
+        position: absolute;
+        top: 4.5em;
+        left: 3.6em;
+    }
+    
+
+    .contactanos p{
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contactanos h1{
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -30px;
+    }
+
+    .services .correo{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services .ubicacion{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .services iframe{
+        width: 300px;
+    }
+
+    .contactanos h1{
+        margin-left: 70px;
+        margin-right: auto;
+        font-size: 30px;
+    }
+
+    
+    .contactanos .nuestra-historia{
+        margin-left: 0px;
+        margin-right: auto;
+        font-size: 30px;
+    }
+
+    
+    .contactanos .porque-cinehub{
+        margin-left: 90px;
+        margin-right: auto;
+        font-size: 30px;
+    }
+
+    .contactanos img{
+        position: relative;
+        left: -480px;
+        top: -50px;
+    }
+
+    .politica .politica-txt{
+        position: relative;
+        margin-left: 100px;
+        margin-right: 0;
+        font-size: 25px;
+    }
+
+    .politica p{
+        margin-left: -100px;
+        margin-right: auto;
+    }
+
+    .politica hr{
+        margin-left: -140px;
+        width: 400px;
+    }
+
+    .politica .Destacar{
+        width: 420px;
+        margin-left: -170px;
+        font-size: 25px;
+    }
+
+    .politica .acomodo-ul{
+        margin-left: -120px;
+        width: 300px;
+    }
+
+    .contactanos .acerca-de-nosotros{
+        position: relative;
+        left: -60px;
+    }
+
+    
+    .contactanos .nuestra-historia{
+        position: relative;
+        left: 0px;
+    }
+    
+    .contactanos .porque-cinehub{
+        position: relative;
+        left: -60px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    footer .container{
+        height: 150px;
+    }
+
+    iframe{
+        margin-top: 30px;
+    }
+
+    .services iframe{
+        width: 600px;
+    }
+
+    .container .siguenos-footer{
+        position: absolute;
+        top: 75px;
+        left: 0px;
+    }
+
+    .container .enlaces-footer{
+        position: absolute;
+        top: 75px;
+        left: -30px;
+    }
+
+    .container .footer-cine-hub{
+        position: absolute;
+        top: 150px;
+        margin-left: 170px;
+    }
+
+    .contactanos p{
+        width: 600px;
+    }
+
+    .contactanos h1{
+        font-weight: bold;
+    }
+
+    .contactanos img{
+        position: relative;
+        left: -270px;
+    }
+
+    .politica .politica-txt{
+        position: relative;
+        left: -50px;
+    }
+
+    .politica p{
+        position: relative;
+        left: 40px;
+    }
+
+    .politica hr{
+        position: relative;
+        left: 80px;
+        width: 600px;
+    }
+
+    .politica .Destacar{
+        position: relative;
+        left: 210px;
+    }
+
+    .politica ul{
+        position: relative;
+        left: 200px;
+    }
+}
+
+
+
+@media screen and (min-width: 350px) and (max-width: 380px) {
+
+    footer .footer-cine-hub{
+        position: relative;
+        left: 50px;
+    }
+
+    footer .siguenos-footer{
+        position: absolute;
+        left: -10px;
+    }
+
+    footer .enlaces-footer{
+        position: relative;
+        left: -30px;
+    }
+}
