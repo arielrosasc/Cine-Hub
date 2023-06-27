@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+
+.jumbotron{
+    position:relative;
+    top:-23px;
+}
+
+
+.menu-horizontal{
+    font-size: 18px;
+    position: relative;
+    top: -80px;
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 15px 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.menu-horizontal > li:hover{
+	background-color: #106cfc;
+    border-radius:10px;
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 125px;
+	background-color: #18171c;
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: #106cfc;
+    border-radius:10px;
+}
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 15px 15px 15px 20px;
+}
+
+body{
+    background-color: #18171c;
+}
+
+.navbar{
+    background-color: #111;
+}
+
+.jumbotron{
+    background-color: #18171c;
+    
+}
+
+.display-3{
+    color:blanchedalmond
+}
+.lead{
+    color:blanchedalmond
+}
+.inf{
+    color:blanchedalmond
+}
+
+.card{
+    background-color:#18171c;
+}
+
+.card-header{
+    color:blanchedalmond;
+}
+.card-body{
+    color:blanchedalmond;
+   
+}
+.form-control{
+    background-color:blanchedalmond;
+}
+.form-group {
+    background-color:#18171c;
+}
+
+.table{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.bg-black-100{
+    background-color: #0f0f14;
+}
+
+@media(max-width: 1100px){
+    .menu-horizontal {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .menu-horizontal > li {
+      margin: 10px;
+      position: relative;
+    }
+    .menu-vertical {
+      position: absolute;
+      display: none;
+      list-style: none;
+      width: 125px;
+      background-color: #18171c;
+      top: 45px;
+    }
+    .menu-horizontal li:hover .menu-vertical {
+      display: block;
+      position: absolute;
+      top: 60px;
+      z-index: 1;
+    }
+    .menu-vertical li:hover {
+      background-color: #106cfc;
+      border-radius: 10px;
+    }
+    .menu-vertical li a {
+      display: block;
+      color: white;
+      text-decoration: none;
+      padding: 15px 15px 15px 20px;
+    }
+
+    .jumbotron h1{
+        font-size: 4em;
+    }
+  }
+  

@@ -1,0 +1,49 @@
+body{
+    background-color: #18171c;
+}
+
+.navbar{
+    background-color: #111;
+}
+
+.jumbotron{
+    background-color: #18171c;
+    
+}
+
+.display-3{
+    color:blanchedalmond
+}
+.lead{
+    color:blanchedalmond
+}
+.inf{
+    color:blanchedalmond
+}
+
+.card{
+    background-color:#18171c;
+}
+
+.card-header{
+    color:blanchedalmond;
+}
+.card-body{
+    color:blanchedalmond;
+   
+}
+.form-control{
+    background-color:blanchedalmond;
+}
+.form-group {
+    background-color:#18171c;
+}
+
+.table{
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.bg-black-100{
+    background-color: #0f0f14;
+}
