@@ -8,3 +8,10 @@
 * Ariel Rosas
 * Fernando Uribe
 * Marco García
+
+## Tecnologías
+
+* HTML5
+* CSS3
+* php
+* xampp
