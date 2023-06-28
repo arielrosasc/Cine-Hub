@@ -1,6 +1,6 @@
 # Cine-Hub
 
-## Desarrollado y Diseñado por: 
+## Desarrollado y diseñado por: 
 
 * Esteban Mancilla
 * Héctor Martínez
